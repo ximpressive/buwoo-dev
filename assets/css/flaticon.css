@@ -1,0 +1,55 @@
+	/*
+  	Flaticon icon font: Flaticon
+  	Creation date: 21/02/2018 07:16
+  	*/
+    @font-face {
+      font-family: "Flaticon";
+      src: url("../fonts/Flaticon.eot");
+      src: url("../fonts/Flaticon.eot?#iefix") format("embedded-opentype"),
+           url("../fonts/Flaticon.woff") format("woff"),
+           url("../fonts/Flaticon.ttf") format("truetype"),
+           url("../fonts/Flaticon.svg#Flaticon") format("svg");
+      font-weight: normal;
+      font-style: normal;
+    }
+    
+    @media screen and (-webkit-min-device-pixel-ratio:0) {
+      @font-face {
+        font-family: "Flaticon";
+        src: url("../fonts/Flaticon.svg#Flaticon") format("svg");
+      }
+    }
+    
+    [class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+    [class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
+      font-family: Flaticon;
+      font-style: normal;
+    }
+
+.flaticon-heart:before { content: "\f100"; }
+.flaticon-favorite-heart-button:before { content: "\f101"; }
+.flaticon-box-2:before { content: "\f102"; }
+.flaticon-archive-1:before { content: "\f103"; }
+.flaticon-box-1:before { content: "\f104"; }
+.flaticon-archive:before { content: "\f105"; }
+.flaticon-telephone-handle-silhouette:before { content: "\f106"; }
+.flaticon-mail:before { content: "\f107"; }
+.flaticon-smartphone:before { content: "\f108"; }
+.flaticon-search:before { content: "\f109"; }
+.flaticon-menu:before { content: "\f10a"; }
+.flaticon-paper-plane:before { content: "\f10b"; }
+.flaticon-box:before { content: "\f10c"; }
+.flaticon-circular-arrow:before { content: "\f10d"; }
+.flaticon-help-round-button:before { content: "\f10e"; }
+.flaticon-edit:before { content: "\f10f"; }
+.flaticon-star-1:before { content: "\f110"; }
+.flaticon-star-half-empty:before { content: "\f111"; }
+.flaticon-star:before { content: "\f112"; }
+.flaticon-business:before { content: "\f113"; }
+.flaticon-arrows:before { content: "\f114"; }
+.flaticon-return-arrow:before { content: "\f115"; }
+.flaticon-headphones:before { content: "\f116"; }
+.flaticon-credit-card:before { content: "\f117"; }
+.flaticon-delivery-truck:before { content: "\f118"; }
+.flaticon-map:before { content: "\f119"; }
+.flaticon-restaurant:before { content: "\f100"; }

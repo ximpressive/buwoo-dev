@@ -1,0 +1,44 @@
+/* 
+ *
+ * Style for MegaMenu
+ * 
+ */
+/**Mega Menu **/
+/*.navbar .container { position: relative; }
+.menu-item-has-children, .menu-item-has-children .dropdown-menu { left: auto; }
+.menu-item-has-children .dropdown-menu { width: auto ; }*/
+
+/* Make dropdown visible on hover */
+@media (min-width: 1080px) {
+/*.header-area .dropdown > .dropdown-menu { position: absolute;top: 100%;left: auto;z-index: 1000;float: none;min-width: 10rem;list-style: none;border: none;border-radius: 0;box-shadow: none;opacity: 0;display: block;visibility:hidden;min-width: 150px;transition: all  0.2s ease-in-out;padding: 0;}
+.dropdown:hover > .dropdown-menu { visibility:visible;display: block;opacity: 1;transition: all  0.2s ease-in-out; border: 1px solid rgba(0, 0, 0, 0.15);border-radius: 0;-webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175); }*/
+
+.navbar-nav > li.mega-menu-parent{ position: static; }
+.navbar .navbar-nav .dropdown-menu{ padding: 0; }
+.navbar-right .mega-menu-parent.dropdown .dropdown-menu{ position: absolute;left: auto;right: 40px; }
+.navbar-left .mega-menu-parent.dropdown .dropdown-menu{ position: absolute;right: auto;left: 52px; }
+.mega-menu-parent.dropdown .dropdown-menu li{ float: left;padding: 20px 0;min-width: 200px;width: 200px; } 
+.mega-menu-parent.dropdown .dropdown-menu li h2,
+.mega-menu-parent.dropdown .dropdown-menu li h3{ text-transform: uppercase;font-weight: 600;font-size: 16px;margin:0;line-height: 30px;padding-left: 40px; }
+.header-area .navbar .navbar-nav .mega-menu-parent.dropdown li a:after{ display: none; }
+/*.header-area .navbar .navbar-nav .mega-menu-parent.dropdown li a:hover{ background: transparent; }*/
+.mega-menu-parent.dropdown .dropdown-menu li.widget_media_image{ padding: 0;width: 300px; }
+
+.mega-menu-parent.dropdown .dropdown-menu li ul{ padding-left: 40px; }
+.mega-menu-parent.dropdown .dropdown-menu li ul li{ line-height: 30px;float:none; }
+.mega-menu-parent.dropdown .dropdown-menu li.widget ul{ list-style: none;display: block; }
+.mega-menu-parent.dropdown .dropdown-menu li.widget ul li{ padding: 0; }
+.mega-menu-parent.dropdown .dropdown-menu li.widget ul li a{ font-size: 14px;font-weight: 400; color: #999;text-transform: capitalize;padding: 0; }
+.mega-menu-parent.dropdown .dropdown-menu li.widget ul li a:hover{ background-color: inherit; }
+
+}
+
+@media (max-width: 767px) {
+	.dropdown-menu {
+    	background-color: inherit;
+		border: inherit !important;
+    	box-shadow: inherit !important;
+	}
+	.mega-menu-parent.dropdown .dropdown-menu li.widget_media_image{ display: none; }
+	.dropdown-menu{ position: static; }
+}
